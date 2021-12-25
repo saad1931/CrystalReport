@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Materials_Detail" msprop:Generator_TableClassName="Materials_DetailDataTable" msprop:Generator_TableVarName="tableMaterials_Detail" msprop:Generator_TablePropName="Materials_Detail" msprop:Generator_RowDeletingName="Materials_DetailRowDeleting" msprop:Generator_RowChangingName="Materials_DetailRowChanging" msprop:Generator_RowEvHandlerName="Materials_DetailRowChangeEventHandler" msprop:Generator_RowDeletedName="Materials_DetailRowDeleted" msprop:Generator_UserTableName="Materials_Detail" msprop:Generator_RowChangedName="Materials_DetailRowChanged" msprop:Generator_RowEvArgName="Materials_DetailRowChangeEvent" msprop:Generator_RowClassName="Materials_DetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MATERIAL_ID" msprop:Generator_ColumnVarNameInTable="columnMATERIAL_ID" msprop:Generator_ColumnPropNameInRow="MATERIAL_ID" msprop:Generator_ColumnPropNameInTable="MATERIAL_IDColumn" msprop:Generator_UserColumnName="MATERIAL_ID" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="MATERIAL_NAME" msprop:Generator_ColumnVarNameInTable="columnMATERIAL_NAME" msprop:Generator_ColumnPropNameInRow="MATERIAL_NAME" msprop:Generator_ColumnPropNameInTable="MATERIAL_NAMEColumn" msprop:Generator_UserColumnName="MATERIAL_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_ColumnPropNameInRow="DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" msprop:Generator_UserColumnName="DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="PO_NUMBER" msprop:Generator_ColumnVarNameInTable="columnPO_NUMBER" msprop:Generator_ColumnPropNameInRow="PO_NUMBER" msprop:Generator_ColumnPropNameInTable="PO_NUMBERColumn" msprop:Generator_UserColumnName="PO_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="WEIGHT" msprop:Generator_ColumnVarNameInTable="columnWEIGHT" msprop:Generator_ColumnPropNameInRow="WEIGHT" msprop:Generator_ColumnPropNameInTable="WEIGHTColumn" msprop:Generator_UserColumnName="WEIGHT" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
